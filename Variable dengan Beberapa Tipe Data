@@ -1,0 +1,49 @@
+#include <iostream>
+using namespace std;
+
+int main ( )
+{
+	// Deklarasi Tipe Data Variable
+	string nama;
+	int umur;
+	float berat_Badan;
+	double tinggi_Badan;
+	char jenis_Kelamin;
+	bool IPK;
+	
+	cout << " Siapakah Nama Anda? " << endl;
+	cout << " Jawab : ";
+	// Menyimpan Data ke Variable
+	getline(cin,nama);
+	
+	cout << " Berapakah Umur Anda? " << endl;
+	cout << " Jawab : ";
+	// Menyimpan Data ke Variable
+	cin >> umur;
+	
+	cout << " Berapakah Berat Badan Anda? " << endl;
+	cout << " Jawab : ";
+	// Menyimpan Data ke Variable
+	cin >> berat_Badan;
+	
+	cout << " Berapakah Tinggi Anda? " << endl;
+	cout << " Jawab : ";
+	// Menyimpan Data ke Variable
+	cin >> tinggi_Badan;
+	
+	cout << " Apa Jenis Kelamin Anda [L/P]? " << endl;
+	cout << " Jawab : ";
+	// Menyimpan Data ke Variable
+	cin >> jenis_Kelamin;
+	
+	cout << " Berapakah IPK Anda? " << endl;
+	cout << " Jawab : ";
+	// Menyimpan Data ke Variable
+	cin >> IPK;
+	if (IPK)
+	{
+		cout << "\nAnda LULUS\n";
+	}
+
+	return 0;
+}
